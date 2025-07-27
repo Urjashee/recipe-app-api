@@ -35,3 +35,8 @@ docker login -u your-username # Please replace the username from your docker hub
 ```
 docker-compose run --rm app sh -c "python manage.py test"
 ```
+
+#### to run application
+```
+docker-compose run --rm app sh -c "python manage.py app"
+```
